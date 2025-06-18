@@ -1,5 +1,11 @@
-import { HorizontalPortfolio } from "@/components/horizontal-portfolio"
+import { OptimizedPortfolio } from "@/components/horizontal-portfolio";
+// Or alternatively, you can now use:
+// import { OptimizedPortfolio } from "@/components";
 
 export default function Page() {
-  return <HorizontalPortfolio />
+  return (
+    <main>
+      <OptimizedPortfolio />
+    </main>
+  );
 }
